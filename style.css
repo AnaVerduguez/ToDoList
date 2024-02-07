@@ -1,0 +1,78 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/0d/7c/b6/0d7cb6628f0ecda84db63040c461e34e.gif"); 
+    background-size: 100%;
+    font-family:Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: #060607;
+}
+
+.boton-agregar:hover{
+    background-color: #161925;
+}
+
+.item-input {
+    width: 350px;
+    height: 50px;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    background: #F7F7F7;
+    outline: none;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.boton-editar {
+    margin: 0px 5px 0px 5px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.boton-remover {
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #060607;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+
+.boton-remover:hover{
+    background-color: #161925;
+}
